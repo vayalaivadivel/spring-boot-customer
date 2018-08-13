@@ -1,0 +1,22 @@
+management:
+  endpoint:
+    health:
+      show-details: ALWAYS
+spring:
+  jpa.hibernate.ddl-auto: update
+  datasource:
+    url: jdbc:mysql://us-cdbr-iron-east-01.cleardb.net:3306/ad_3f70416f6a81aa4?useSSL=false
+    username: b8ae9b56ff1145
+    password: f24a99630198d53
+    driver-class-name: com.mysql.jdbc.Driver
+swagger.api:
+  title: customer-service
+  description: Customer-Service api for POC using spring boot and jpa with mysql
+  version: Customer-Service-1.0.0
+  termsOfServiceUrl: https://github.com/vayalaivadivel
+  license: Test licence
+  licenseUrl: https://github.com/vayalaivadivel
+  contact:
+    name: Java Team
+    url: https://github.com/vayalaivadivel
+    email: vayalaivadivel@gmail.com
